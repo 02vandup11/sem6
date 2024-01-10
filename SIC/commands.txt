@@ -1,0 +1,97 @@
+R1(config-line)#login authentication default
+R1(config-line)#do wr
+Building configuration...
+[OK]
+R1(config-line)#end
+R1#
+%SYS-5-CONFIG_I: Configured from console by console
+
+R1#exit
+
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Access Verification
+
+Username: admin2
+Password: 
+R1>en
+Password: 
+R1#
+R1#
+
+
+
+
+
+
+
+
+R1 con0 is now available
+
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------
+pc comand prompt
+telnet 192.168.1.1 (R1 ip add)
+it should ask username n pass
+---------------------------------------------
+
+R2
+-------------------------- 
+
+switch ip address
+
+Switch>enable
+Switch#
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#interface FastEthernet0/21
+Switch(config-if)#EXIT
+Switch(config)#interface vlan 1
+Switch(config-if)#ip address 10.101.117.50 255.255.255.248
+Switch(config-if)#no shutdown
+-------------------------------------------------------------
+
+
+
